@@ -1,0 +1,342 @@
+   body{ 
+          width:        98%; 
+          margin-top:   0px;
+          margin:       auto; 
+          font-family:  Calibri, sans-serif; 
+          font-size:    0.80em; 
+          overflow-y:   scroll;
+          color:        #000000;
+          background:   #ffffff;
+   }
+
+   nav  {
+          width:        96%;
+          height:       40px; 
+          border-radius:10px;
+          background:   #f3f3f3;
+          color:        #000000;
+          border:       1px solid #cccccc;
+          position:     fixed;
+          top:          5px;  
+          text-align:   center; 
+ 
+   }
+   nav ul {
+          list-style-image:none;
+          list-style-position:outside;
+          list-style-type:none;
+          width:100%;
+   }
+   nav ul li {
+          margin-left:auto;
+          margin-right:auto; 
+   }
+   nav ul li a{
+          margin-right:20px;
+          line-height:40px;
+   }
+
+   #firstcontent {
+          display:table; 
+          margin-top:68px;
+          margin-bottom:8px;
+          width:98%;
+   }
+
+   #lastcontent {
+          display:table;
+          margin-bottom:8px;
+          width:98%;
+   }
+
+   .content {
+          display:table;
+          width:98%;
+   }
+
+   .leftcontent {
+          display:table-cell;
+          padding-right:22px;
+          width:65%;
+   }
+
+   aside {
+          border:4px dashed #cccccc;
+          border-radius:11px;
+          display:table-cell;
+          width:33%;
+          background:#336699;
+          color:#000000; 
+   }
+
+   aside section {
+          border:4px dotted #00ff00;
+          border-radius:11px;
+          background:#ffffff;
+          color:#000000;
+          margin:22px;
+          padding:11px; 
+          width:75%;
+   }
+
+   aside section ul {
+          list-style-position:outside;
+          line-height:25px;
+   }
+
+   footer  {
+          width:96%;
+          height:30px;
+          border-radius:10px;
+          background:#f3f3f3;
+          color:#000000;
+          border:1px solid #cccccc;
+          position:absolute;
+          text-align:center; 
+          font-weight:bold;
+          display:inline-block;
+          margin: auto;
+          padding-top:10px;
+   }
+
+   #allowance { 
+          margin-top: 40px;
+   }
+
+   h1 {font-size: 24pt; font-weight:bold;}
+
+   h2 {font-size: 18pt; font-weight:bold;}
+
+   p {
+          font-size: 120%;
+   }
+  
+   ul.square {
+          list-style-type: square;
+          list-style-position:inside;
+   }
+
+   blockquote {
+
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-left: 15px;
+          padding-left: 15px;
+          border-left: 3px solid #cccccc;
+   }
+
+   blockquote.more {
+          margin-left: 20px;
+          padding-left: 20px;
+          border-left: 2px solid #cccccc;
+   }
+
+   hr {
+         color: #ff0000;
+         background-color: #ffff00;
+         height: 3px; 
+         width:95%;
+   }
+
+   hr#thick {
+         height:6px;
+   }
+
+   a { 
+         text-shadow:1px 1px 1px #cccccc;
+   }
+
+
+   #int222 { vertical-align: middle; }
+
+
+
+
+   .gototop {
+          text-align:right;
+   
+   }
+
+    
+   p.indent  { 
+		text-indent: 40px; 
+   } 
+
+   caption.bottomcap  {
+                        caption-side: bottom;
+   }
+
+   td.textalign1   {
+			vertical-align:top;
+   }
+   
+   td.textalign2   {
+			vertical-align:middle;
+   }
+    
+   td.textalign3   {
+			vertical-align:bottom;
+   }
+
+   td.textalign4   {
+			text-align:left;
+   }
+
+   td.textalign5   {
+			text-align:center;
+   }
+
+   td.textalign6   {
+			text-align:right;
+   }
+
+   td.textalign7   {
+			vertical-align:top;
+                    	text-align:left;
+   }
+
+   td.textalign8   {
+			vertical-align:top;
+            	        text-align:center;
+   }
+
+   td.textalign9   {
+			vertical-align:top;
+		    	text-align:right;
+   }
+
+   td.textalign10   {
+			vertical-align:middle;
+                     	text-align:left;
+   }
+
+   td.textalign11   {
+			vertical-align:middle;
+                     	text-align:center;
+   }
+
+   td.textalign12   {
+			vertical-align:middle;
+                     	text-align:right;
+   }
+
+   td.textalign13   {
+			vertical-align:bottom;
+ 		     	text-align:left;
+   }
+
+   td.textalign14   {
+			vertical-align:bottom;
+		     	text-align:center;
+   }
+
+   td.textalign15   {
+			vertical-align:bottom;
+		     	text-align:right;
+   }
+
+
+   .table1 { 
+                       width:400px;
+                       margin:auto; 
+                       border: 4px solid #000000; 
+   }
+    
+    .table1 th, .table1 td  {
+                                border: 2px solid #000000;  
+    }
+
+    .table2 { 
+
+                width:400px;
+                margin:auto; 
+                border:4px solid #000000;
+                border-collapse:separate; 
+                border-spacing:20px; 
+    }
+
+    .table2 th  {
+                    border: 2px solid #0000ff; 
+    }
+
+    .table2 td  {
+                    border: 2px solid #000000;
+    }
+
+     .table2 caption {width:170px; margin:auto; border:2px solid #000000;}
+
+    .table3 {
+               width:600px;
+               margin:auto;
+               border:2px solid #000000;
+               border-collapse:separate;
+    }
+
+    .table3 th, .table3 td  {
+                                 border: 2px solid #000000;
+                                 height: 60px;
+    }
+
+     .table4 {
+               width:600px;
+               margin:auto;
+               border:4px solid #000000;
+               border-collapse:separate;
+    }
+
+    .table4 th, .table4 td  {
+                                 border: 2px solid #000000;
+                                 height: 60px;
+    }
+
+   .tableN {
+               width:100%;
+               margin:auto;
+               border:1px solid #000000;
+               border-collapse:separate;
+
+   }
+
+    .tableN th, .tableN td  {
+                                 border: 1px solid #000000;
+    }
+
+
+
+    p.type1 { 
+               text-decoration:underline; 
+    }
+
+    p.type2 { 
+               font-style: italic; 
+    }
+    
+    p.type3 { 
+               color:#0000FF; 
+    } 
+
+    p.type4 {
+               text-decoration:underline; 
+               font-style: italic; 
+               color:#008000;
+    }
+   
+    ul {
+          list-style-type: disc ;
+    }
+
+    ol {
+          list-style-type:decimal;
+    } 
+
+
+     
+
+
+   
+
+
+
+/* Include New CSS classes and ids here */
+
+ 
